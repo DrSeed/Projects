@@ -1,7 +1,7 @@
-<<<<<<< HEAD
 
+# Projects
 
-# README for Salifort Motors HR Project
+# Salifort Motors HR Project
 
 ## Project Overview
 
@@ -36,4 +36,21 @@ The analysis revealed that employees are leaving the company as a result of poor
 
 The ability to foresee potential employee exits is a valuable asset. It opens up the opportunity to identify possible factors contributing to their decision to quit. Given that recruiting new employees involves significant time and financial investments, 
 this analysis aimed to support the company’s efforts to enhance employee retention, which would ultimately contribute to the overall efficiency and success of Salifort Motors.
->>>>>>> a58f28b (salifort_mortors_project)
+
+# Projects
+
+# Airline Passenger Satisfaction Analysis
+This project involves an exploratory data analysis and predictive modeling of airline passenger satisfaction based on a variety of factors such as flight distance, inflight wifi service, ease of online booking, and more. The goal is to create a model that accurately predicts passenger satisfaction and provides insights into the key factors that influence it.
+
+# Loan Status Prediction
+This project involves building a predictive model to determine whether a person should be granted a loan.
+
+# Medical Expenses Prediction 
+In this project, I've developed a model that predicts medical expenses based on personal health data.
+
+# Optimizing Agricultural Production
+ This project focuses on optimizing agricultural production using exploratory data analysis and machine learning techniques.
+
+# Sum of Dice and Fibonacci Sequence 
+This project involves creating a program that calculates the sum of dice and generates a Fibonacci sequence.
+
