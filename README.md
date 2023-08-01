@@ -1,6 +1,49 @@
 
 # Projects
 
+# Understanding Treatment Effects through Randomized Controlled Trials (RCTs) and Observational Trials: A Simulation Study on Odds Ratios and Logistic Regression
+
+## Introduction
+
+In this project, I delved into the complex relationship between treatment and survival in healthcare, utilizing both randomized controlled trials (RCTs) and observational trials. Through statistical simulations and logistic regression models, I uncovered the underlying dynamics that may have led to misleading conclusions about treatment effects.
+
+## Project Overview
+
+I focused on the challenges and complexities of analyzing treatment effects in healthcare. By conducting both RCTs and observational trials, I explored how treatment correlated with survival and emphasized the importance of considering confounding variables and context.
+
+## Dataset Description
+
+The simulated dataset I used consisted of the following key variables:
+
+- **Treatment**: A binary variable indicating whether the treatment was administered (1) or not (0).
+- **Age**: A continuous variable representing the age of the patients.
+- **Death Probability**: Calculated based on age, with different probabilities for young and old patients.
+- **Odds Ratios (OR)**: Derived from logistic regression models, representing the odds of an event occurring in the treatment group compared to the control group.
+- **Success/Failure**: Outcome of the trials, indicating whether the treatment was successful or failed.
+
+## Results
+
+### Simulated Randomized Controlled Trials (RCTs)
+
+- **Variables**: Age death threshold, young death probability, old death probability.
+- **Outcome**: Dependency on age, with different odds ratios (OR) and success/failure rates.
+
+### Observational Trials
+
+- **Problem**: I found that many of the odds ratios were greater than one, suggesting a negative treatment effect.
+- **Solution**: I included age as a confounding variable and excluded patients younger than a minimum treatment age.
+
+### Logistic Regression Models
+
+- **Single Variable Model**: Analysis using treatment as the only variable.
+- **Multivariate Model**: Inclusion of age as another independent variable to improve the analysis.
+
+## Conclusion
+
+This project provided me with valuable insights into the robust analysis of treatment outcomes, serving as a resource for researchers, healthcare professionals, and statisticians. My findings emphasized the nuanced understanding of how treatment correlated with survival, shedding light on the challenges and potential solutions in interpreting treatment effects.
+
+---
+
 # Cardiovascular Diseases Risk Prediction
 
 ## Project Overview
@@ -69,7 +112,7 @@ The results emphasize the importance of a healthy lifestyle and regular checkups
 ## Conclusion
 This project provides insights into the risk factors associated with cardiovascular diseases and offers a predictive model to assess individual risks. The analysis is detailed and can be followed by anyone interested in health data analysis.
 
-
+---
 
 # Salifort Motors HR Project
 
@@ -107,6 +150,7 @@ The analysis revealed that employees are leaving the company as a result of poor
 The ability to foresee potential employee exits is a valuable asset. It opens up the opportunity to identify possible factors contributing to their decision to quit. Given that recruiting new employees involves significant time and financial investments, 
 this analysis aimed to support the company’s efforts to enhance employee retention, which would ultimately contribute to the overall efficiency and success of Salifort Motors.
 
+---
 
 # Airline Passenger Satisfaction Analysis
 This project involves an exploratory data analysis and predictive modeling of airline passenger satisfaction based on a variety of factors such as flight distance, inflight wifi service, ease of online booking, and more. The goal is to create a model that accurately predicts passenger satisfaction and provides insights into the key factors that influence it.
